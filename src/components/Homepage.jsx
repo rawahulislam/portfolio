@@ -43,7 +43,14 @@ const Homepage = () => {
               url="https://whatsapp.com/"
             />
           </div>
-          <div className="cursorPointer">Download Resume</div>
+          <div className="cursorPointer">
+            <a
+              target="blank"
+              href="https://drive.google.com/file/d/1nwT4Fr9Dda5PvSIt6ytBx-FHQfevHueC/view?usp=drive_link"
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
     </div>
