@@ -1,11 +1,18 @@
 .homePageContainer{
    
     width: 100%;
-    height: 100%;
-    color: white;
+    height: 100vh;
+    color: black;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
+.homePageContainer.darkmode{
+    background-color: black;
+    color: white;
+}
+
 
 
 .cursorPointer{

@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { SocialIcon } from 'react-social-icons'
 
 import "../css/homepage.css";
 const Homepage = () => {
+  const [darkmode, setDarkmode] = useState(true)
+  function handleDarkMode(){
+       setDarkmode(!darkmode)
+  }
   return (
-    <div className="homePageContainer">
+    <div className={`homePageContainer ${darkmode?'darkmode' : ""}`}>
       <div className="headingTxt"><h1>PORTFOLIO</h1></div>
+      <div className="cursorPointer" onClick={handleDarkMode}>Toggle Darkmode</div>
       <div className="boxContainer">
         <div className="leftSection">
           <img
