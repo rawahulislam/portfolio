@@ -1,21 +1,24 @@
 .homePageContainer {
   width: 100%;
   height: 100vh;
-  color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: url("../assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 
 
 .darkmodeBtn {
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 20px;
   padding: 1rem;
 }
 .homePageContainer.darkmode {
-  background-color: black;
+  background: black !important;
   color: white;
   .darkmodeBtn {
     border: 1px solid white;
