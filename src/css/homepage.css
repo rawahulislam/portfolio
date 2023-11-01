@@ -110,4 +110,8 @@ a:hover {
   .darkmodeBtn{
     margin-bottom: 1rem;
   }
+
+  .homePageContainer{
+    height: 100%;
+  }
 }
